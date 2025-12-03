@@ -83,13 +83,13 @@ module TestRunner =
     // Day3
     let input3() = getInput 3
 
-    let examples3_1 = [| "" |]
+    let examples3_1 = [| "987654321111111\n811111111111119\n234234234234278\n818181911112111" |]
 
-    let exampleResults3_1 = [| "" |]
+    let exampleResults3_1 = [| "357" |]
 
-    let examples3_2 = [| "" |]
+    let examples3_2 = examples3_1
 
-    let exampleResults3_2 = [| "" |]
+    let exampleResults3_2 = [| "3121910778619" |]
 
     // Day4
     let input4() = getInput 4

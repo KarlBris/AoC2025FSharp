@@ -47,12 +47,12 @@ module TestRunner =
 
         if examplesSuccessful then
             printfn "All examples were successful, running the real input..."
-            let timer = new Stopwatch()
+            let timer = Stopwatch()
             timer.Start()
-            printfn "Result from real input: %s" (func realInput)
+            printfn $"Result from real input: %s{func realInput}"
             timer.Stop()
-            printfn $"Time elapsed: {(formatTime timer.Elapsed)}"
-            printfn "Time elapsed: %A" timer.Elapsed
+            printfn $"Time elapsed: {formatTime timer.Elapsed}"
+            printfn $"Time elapsed: %A{timer.Elapsed}"
         else
             printfn "Some examples were not successful. PLEASE DO BETTER"
 

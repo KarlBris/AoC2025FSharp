@@ -40,7 +40,7 @@ module Day04 =
         if numberOfRollsToRemove = 0 then
             acc
         else
-            let newRollMap = rollsToRemove |> Array.fold (fun s roll -> Map.remove roll s) rolls
+            let newRollMap = rolls |> Map.removeMany rollsToRemove
 
             findAndRemoveRolls (acc + numberOfRollsToRemove) newRollMap
 

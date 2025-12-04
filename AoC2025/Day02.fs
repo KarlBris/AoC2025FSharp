@@ -26,7 +26,7 @@ module Day02 =
     let isInvalidId2 (id: string) : bool =
         id.Length
         |> divisors
-        |> removeLastElement
+        |> Array.removeLastElement
         |> Array.fold (fun invalid lengthToCheck -> if invalid then invalid else isRepeating lengthToCheck id) false
 
     let doThing (input: string) (invalidFun: string -> bool) : string =

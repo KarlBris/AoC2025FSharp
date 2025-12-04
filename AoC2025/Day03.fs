@@ -6,7 +6,7 @@ open Utils
 module Day03 =
 
     let parseInput (input: string) : int array array =
-        input |> lines |> Array.map (Array.ofSeq >> Array.map charToInt)
+        input |> lines |> Array.map (Array.ofSeq >> Array.map Char.toInt)
 
     let rec selectBatteries (batteriesLeft: int) (bank: int array) : int64 =
         if batteriesLeft = 0 then

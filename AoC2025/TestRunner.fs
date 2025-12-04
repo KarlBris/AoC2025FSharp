@@ -94,13 +94,13 @@ module TestRunner =
     // Day4
     let input4() = getInput 4
 
-    let examples4_1 = [| "" |]
+    let examples4_1 = [| "..@@.@@@@.\n@@@.@.@.@@\n@@@@@.@.@@\n@.@@@@..@.\n@@.@@@@.@@\n.@@@@@@@.@\n.@.@.@.@@@\n@.@@@.@@@@\n.@@@@@@@@.\n@.@.@@@.@." |]
 
-    let exampleResults4_1 = [| "" |]
+    let exampleResults4_1 = [| "13" |]
 
-    let examples4_2 = [| "" |]
+    let examples4_2 = examples4_1
 
-    let exampleResults4_2 = [| "" |]
+    let exampleResults4_2 = [| "43" |]
 
     // Day5
     let input5() = getInput 5

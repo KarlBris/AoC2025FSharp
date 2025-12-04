@@ -102,6 +102,16 @@ module Utils =
            ((1, 0), E)
            ((-1, 0), W) |]
 
+    let allNeighborPositions: (Position) array =
+        [| (0, 1)
+           (0, -1)
+           (1, 0)
+           (-1, 0)
+           (1,1)
+           (1,-1)
+           (-1,1)
+           (-1,-1) |]
+
     let lines (input: string) : string [] =
         input.Split([| "\r\n"; "\n"; "\r" |], StringSplitOptions.RemoveEmptyEntries)
 

@@ -105,13 +105,13 @@ module TestRunner =
     // Day5
     let input5() = getInput 5
 
-    let examples5_1 = [| "" |]
+    let examples5_1 = [| "3-5\n10-14\n16-20\n12-18\n\n1\n5\n8\n11\n17\n32" |]
     
-    let exampleResults5_1 = [| "" |]
+    let exampleResults5_1 = [| "3" |]
     
-    let examples5_2 = [| "" |]
+    let examples5_2 = examples5_1
 
-    let exampleResults5_2 = [| "" |]
+    let exampleResults5_2 = [| "14" |]
 
     // Day6
     let input6() = getInput 6

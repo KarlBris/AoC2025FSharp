@@ -116,13 +116,13 @@ module TestRunner =
     // Day6
     let input6() = getInput 6
 
-    let examples6_1 = [| "" |]
+    let examples6_1 = [| "123 328  51 64 \n 45 64  387 23 \n  6 98  215 314\n*   +   *   +  " |]
 
-    let exampleResults6_1 = [| "" |]
+    let exampleResults6_1 = [| "4277556" |]
 
-    let examples6_2 = [| "" |]
+    let examples6_2 = examples6_1
 
-    let exampleResults6_2 = [| "" |]
+    let exampleResults6_2 = [| "3263827" |]
 
     // Day7
     let input7() = getInput 7

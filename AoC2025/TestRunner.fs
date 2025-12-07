@@ -127,13 +127,13 @@ module TestRunner =
     // Day7
     let input7() = getInput 7
 
-    let examples7_1 = [| "" |]
+    let examples7_1 = [| ".......S.......\n...............\n.......^.......\n...............\n......^.^......\n...............\n.....^.^.^.....\n...............\n....^.^...^....\n...............\n...^.^...^.^...\n...............\n..^...^.....^..\n...............\n.^.^.^.^.^...^.\n..............." |]
 
-    let exampleResults7_1 = [| "" |]
+    let exampleResults7_1 = [| "21" |]
 
-    let examples7_2 = [| "" |]
+    let examples7_2 = examples7_1
 
-    let exampleResults7_2 = [| "" |]
+    let exampleResults7_2 = [| "40" |]
 
     // Day8
     let input8() = getInput 8

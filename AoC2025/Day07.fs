@@ -20,8 +20,7 @@ module Day07 =
         | [] -> acc
         | splitterLine :: rest ->
             let willBeSplit, willNotBeSplit =
-                beams
-                |> Set.partition (fun p -> splitterLine |> List.contains p)
+                beams |> Set.partition (fun p -> splitterLine |> List.contains p)
 
             let hasBeenSplit =
                 willBeSplit

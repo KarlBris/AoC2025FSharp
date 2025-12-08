@@ -145,6 +145,11 @@ module Utils =
         | [| a; b |] -> (a, b)
         | _ -> failwithf $"Array does not contain exactly two elements! %A{arrayWithTwoElements}"
 
+    let threeArrayToTriple<'T> (arrayWithThreeElements: 'T[]) : 'T * 'T * 'T =
+        match arrayWithThreeElements with
+        | [| a; b; c |] -> (a, b, c)
+        | _ -> failwithf $"Array does not contain exactly three elements! %A{arrayWithThreeElements}"
+
     let rec makePairs (stuff: 'a list) : ('a * 'a) list =
         match stuff with
         | [] -> []

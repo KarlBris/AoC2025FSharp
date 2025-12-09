@@ -149,13 +149,13 @@ module TestRunner =
     // Day9
     let input9() = getInput 9
 
-    let examples9_1 = [| "" |]
+    let examples9_1 = [| "7,1\n11,1\n11,7\n9,7\n9,5\n2,5\n2,3\n7,3" |]
 
-    let exampleResults9_1 = [| "" |]
+    let exampleResults9_1 = [| "50" |]
 
-    let examples9_2 = [| "" |]
+    let examples9_2 = examples9_1
 
-    let exampleResults9_2 = [| "" |]
+    let exampleResults9_2 = [| "24" |]
 
     // Day10
     let input10() = getInput 10
